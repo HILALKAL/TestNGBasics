@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="5" name="FireFoxTest(failed)" parallel="tests">
+    <parameter name="password" value="test"/>
+    <parameter name="browser" value="firefox"/>
+    <parameter name="url" value="http://secure.smartbearsoftware.com/samples/TestComplete11/WebOrders/Login.aspx"/>
+    <parameter name="username" value="Tester"/>
+    <classes>
+      <class name="com.class05.taskOne">
+        <methods>
+          <include name="testUsers"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.class05.taskOne -->
+    </classes>
+  </test> <!-- FireFoxTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

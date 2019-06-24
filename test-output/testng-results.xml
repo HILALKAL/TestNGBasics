@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="12043" started-at="2019-06-12T01:45:52Z" finished-at="2019-06-12T01:46:04Z">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="10490" started-at="2019-06-12T01:45:52Z" finished-at="2019-06-12T01:46:03Z">
+      <class name="com.class05.demoTest">
+        <test-method status="PASS" signature="testCrossBrowser(java.lang.String)[pri:0, instance:com.class05.demoTest@7823a2f9]" name="testCrossBrowser" duration-ms="10440" started-at="2019-06-12T01:45:52Z" finished-at="2019-06-12T01:46:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCrossBrowser -->
+      </class> <!-- com.class05.demoTest -->
+    </test> <!-- ChromeTest -->
+    <test name="FirefoxTest" duration-ms="12043" started-at="2019-06-12T01:45:52Z" finished-at="2019-06-12T01:46:04Z">
+      <class name="com.class05.demoTest">
+        <test-method status="PASS" signature="testCrossBrowser(java.lang.String)[pri:0, instance:com.class05.demoTest@77caeb3e]" name="testCrossBrowser" duration-ms="11997" started-at="2019-06-12T01:45:52Z" finished-at="2019-06-12T01:46:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCrossBrowser -->
+      </class> <!-- com.class05.demoTest -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>
